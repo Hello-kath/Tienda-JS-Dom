@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const estilo = document.createElement('link');
     estilo.rel = 'stylesheet';
     
-    estilo.href = '/store.css'; 
+    estilo.href = './store.css'; 
     document.head.appendChild(estilo);
   
     // Crear el encabezado
